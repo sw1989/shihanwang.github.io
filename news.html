@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – News</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Year group headers, styled after the UvA van Hoof page reference */
+    .news-year-group { margin-bottom: 40px; }
+    .news-year-heading {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--blue);
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+    /* Override the base news-list border so items sit flush under each group */
+    .news-year-group .news-list li:first-child { border-top: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-name">Your Name</span>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="teams.html">Team</a></li>
+      <li><a href="news.html" class="active">News</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="page">
+  <h1 style="margin-bottom: 40px;">News</h1>
+
+  <!-- ── 2025 ──────────────────────────────────────────── -->
+  <div class="news-year-group">
+    <div class="news-year-heading">2025</div>
+    <ul class="news-list">
+      <li>
+        <span class="news-date">Jun 2025</span>
+        <span class="news-text">
+          <span class="news-tag tag-paper">Paper</span>
+          <em>"Paper Title"</em> accepted at <strong>Conference / Journal Name</strong>.
+          <a href="#">[paper]</a> <a href="#">[code]</a>
+        </span>
+      </li>
+      <li>
+        <span class="news-date">May 2025</span>
+        <span class="news-text">
+          <span class="news-tag tag-talk">Talk</span>
+          Invited talk at <strong>Workshop / Seminar Name</strong>, City.
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Apr 2025</span>
+        <span class="news-text">
+          <span class="news-tag tag-award">Award</span>
+          Received <strong>Award / Grant Name</strong> from Funding Body.
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Mar 2025</span>
+        <span class="news-text">
+          <span class="news-tag tag-misc">Misc</span>
+          [New PhD student / postdoc / visiting scholar joined the group.]
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Jan 2025</span>
+        <span class="news-text">
+          <span class="news-tag tag-paper">Paper</span>
+          <em>"Paper Title"</em> accepted at <strong>ICLR 2025</strong>.
+          <a href="#">[paper]</a>
+        </span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ── 2024 ──────────────────────────────────────────── -->
+  <div class="news-year-group">
+    <div class="news-year-heading">2024</div>
+    <ul class="news-list">
+      <li>
+        <span class="news-date">Dec 2024</span>
+        <span class="news-text">
+          <span class="news-tag tag-paper">Paper</span>
+          <em>"Paper Title"</em> appeared at <strong>NeurIPS 2024</strong>.
+          <a href="#">[paper]</a> <a href="#">[poster]</a>
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Sep 2024</span>
+        <span class="news-text">
+          <span class="news-tag tag-talk">Talk</span>
+          Keynote at <strong>Symposium / Conference Name</strong>.
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Jul 2024</span>
+        <span class="news-text">
+          <span class="news-tag tag-paper">Paper</span>
+          <em>"Paper Title"</em> accepted at <strong>ICML 2024</strong>.
+          <a href="#">[paper]</a>
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Apr 2024</span>
+        <span class="news-text">
+          <span class="news-tag tag-misc">Misc</span>
+          [Program committee / area chair / editorial board appointment.]
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Jan 2024</span>
+        <span class="news-text">
+          <span class="news-tag tag-award">Award</span>
+          [Grant received / project started.]
+        </span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ── 2023 ──────────────────────────────────────────── -->
+  <div class="news-year-group">
+    <div class="news-year-heading">2023</div>
+    <ul class="news-list">
+      <li>
+        <span class="news-date">Nov 2023</span>
+        <span class="news-text">
+          <span class="news-tag tag-paper">Paper</span>
+          <em>"Paper Title"</em> at <strong>Conference Name</strong>.
+          <a href="#">[paper]</a>
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Jun 2023</span>
+        <span class="news-text">
+          <span class="news-tag tag-talk">Talk</span>
+          Invited talk at <strong>Venue</strong>.
+        </span>
+      </li>
+      <li>
+        <span class="news-date">Feb 2023</span>
+        <span class="news-text">
+          <span class="news-tag tag-misc">Misc</span>
+          [Any other news item from 2023.]
+        </span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Add more year groups following the same pattern -->
+
+</main>
+
+<footer>
+  &copy; 2025 Your Name &nbsp;·&nbsp; Built with GitHub Pages
+</footer>
+
+</body>
+</html>

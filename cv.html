@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .cv-section { margin-bottom: 44px; }
+    .cv-entry { display: flex; gap: 24px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .cv-entry:first-child { border-top: 1px solid var(--border); }
+    .cv-year { flex-shrink: 0; width: 100px; font-size: 0.82rem; font-weight: 600; color: var(--muted); padding-top: 2px; }
+    .cv-body { font-size: 0.9rem; }
+    .cv-body strong { font-weight: 600; }
+    .cv-body .cv-where { color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-name">Your Name</span>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html" class="active">CV</a></li>
+      <li><a href="teams.html">Team</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="page">
+  <h1 style="margin-bottom:28px;">Curriculum Vitae</h1>
+
+  <!-- Download button — replace href with the path to your PDF -->
+  <a class="cv-link-box" href="cv.pdf" target="_blank">
+    ↓ &nbsp;Download PDF
+  </a>
+
+  <!-- ── Positions ───────────────────────────────────────── -->
+  <div class="cv-section">
+    <h2>Positions</h2>
+    <hr class="section-rule" />
+    <div class="cv-entry">
+      <div class="cv-year">2022 – present</div>
+      <div class="cv-body">
+        <strong>Associate Professor</strong><br>
+        <span class="cv-where">Department Name, University Name, City, Country</span>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2018 – 2022</div>
+      <div class="cv-body">
+        <strong>Assistant Professor</strong><br>
+        <span class="cv-where">Department Name, University Name, City, Country</span>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2016 – 2018</div>
+      <div class="cv-body">
+        <strong>Postdoctoral Researcher</strong><br>
+        <span class="cv-where">Group Name, Institution, City, Country</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Education ──────────────────────────────────────── -->
+  <div class="cv-section">
+    <h2>Education</h2>
+    <hr class="section-rule" />
+    <div class="cv-entry">
+      <div class="cv-year">2012 – 2016</div>
+      <div class="cv-body">
+        <strong>PhD in [Field]</strong><br>
+        <span class="cv-where">University Name, City, Country</span><br>
+        Thesis: <em>"Your Thesis Title"</em>. Advisor: Prof. Name.
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2010 – 2012</div>
+      <div class="cv-body">
+        <strong>MSc in [Field]</strong><br>
+        <span class="cv-where">University Name, City, Country</span>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2007 – 2010</div>
+      <div class="cv-body">
+        <strong>BSc in [Field]</strong><br>
+        <span class="cv-where">University Name, City, Country</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Grants & Awards ───────────────────────────────── -->
+  <div class="cv-section">
+    <h2>Grants &amp; Awards</h2>
+    <hr class="section-rule" />
+    <div class="cv-entry">
+      <div class="cv-year">2024</div>
+      <div class="cv-body">
+        <strong>Grant / Award Name</strong><br>
+        <span class="cv-where">Funding body / Organization — €xxx,xxx</span>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2022</div>
+      <div class="cv-body">
+        <strong>Best Paper Award</strong><br>
+        <span class="cv-where">Conference Name 2022</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Selected Service ───────────────────────────────── -->
+  <div class="cv-section">
+    <h2>Selected Service</h2>
+    <hr class="section-rule" />
+    <div class="cv-entry">
+      <div class="cv-year">2023 – present</div>
+      <div class="cv-body">Area Chair / Senior PC, <strong>Conference Name</strong></div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2021 – present</div>
+      <div class="cv-body">Reviewer, <strong>Journal Name (Nature, JMLR, etc.)</strong></div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-year">2020</div>
+      <div class="cv-body">Organizer, <strong>Workshop Name</strong> at Conference Name</div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 Your Name &nbsp;·&nbsp; Built with GitHub Pages
+</footer>
+
+</body>
+</html>
